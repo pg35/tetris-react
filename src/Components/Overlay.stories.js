@@ -1,7 +1,7 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
 
-import Overlay from "./Overla";
+import Overlay from "./Overlay";
 
 export default {
   component: Overlay,
@@ -11,8 +11,9 @@ export default {
 };
 
 export const Default = () => (
-  <Overlay>
-    <h1>hello world</h1>
-  </Overlay>
+  <div class="App">
+    <Overlay>
+      <h1>hello world</h1>
+    </Overlay>
+  </div>
 );
-
