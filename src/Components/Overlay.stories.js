@@ -33,7 +33,7 @@ export const Default = () => (
 
 export const WithOpacity = () => (
   <Container>
-    <Overlay opacity={0.1}>
+    <Overlay opacity={0.3}>
       <div style={{ width: "100px", height: "100px", background: "purple" }}>
         custom div
       </div>
@@ -44,7 +44,9 @@ export const WithOpacity = () => (
 export const WithBgColor = () => (
   <Container>
     <Overlay bgColor={"red"}>
-      <h1>hello world</h1>
+      <div style={{ width: "100px", height: "100px", background: "purple" }}>
+        custom div
+      </div>
     </Overlay>
   </Container>
 );
@@ -52,7 +54,9 @@ export const WithBgColor = () => (
 export const WithOpacity_BgColor = () => (
   <Container>
     <Overlay opacity={1} bgColor={"yellow"}>
-      <h1>hello world</h1>
+      <div style={{ width: "100px", height: "100px", background: "purple" }}>
+        custom div
+      </div>
     </Overlay>
   </Container>
 );
