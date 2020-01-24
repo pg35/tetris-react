@@ -15,3 +15,9 @@ export const Default = () => (
     <h1>hello world</h1>
   </Dialog>
 );
+
+export const LongTitle = () => (
+  <Dialog title="This is pretty long title This is pretty long title This is pretty long title">
+    <h1>hello world</h1>
+  </Dialog>
+);
