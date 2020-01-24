@@ -20,7 +20,7 @@ export default {
   component: Overlay,
   title: "Overlay",
   // Our exports that end in "Data" are not stories.
-  excludeStories: /.*Data$/
+  excludeStories: /.*Data$|^Container$/
 };
 
 export const Default = () => (
